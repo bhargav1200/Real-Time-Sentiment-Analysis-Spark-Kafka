@@ -12,8 +12,8 @@ In this project we perform Sentiment Analysis on live Twitter feed in Real Time.
 * Download & Start Up Apacke Kafka & Apache Zookeeper by following the below link.
 
   [Kafka,Zookeeper Installation Steps](https://kafka.apache.org/documentation.html#gettingStarted)
-
-3.Unzip the zipped .txt tweets file.
+  
+3. Unzip the zipped .txt tweets file.
 
 * $ unzip 16M.txt.zip
 
