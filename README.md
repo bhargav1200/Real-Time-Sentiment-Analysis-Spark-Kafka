@@ -17,7 +17,7 @@ In this project we perform Sentiment Analysis on live Twitter feed in Real Time.
 
 * $ unzip 16M.txt.zip
 
-4.Start zookeeper service.
+4. Start zookeeper service.
 
 * $ bin/zookeeper-server-start.sh config/zookeeper.properties.
 
