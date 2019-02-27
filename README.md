@@ -13,6 +13,14 @@ In this project we perform Sentiment Analysis on live Twitter feed in Real Time.
 
   [Kafka,Zookeeper Installation Steps](https://kafka.apache.org/documentation.html#gettingStarted)
   
+* Install PySpark by following the below link.
+
+  [PySpark](https://askubuntu.com/questions/635265/how-do-i-get-pyspark-on-ubuntu)
+  
+* Install an editor. Here we used atom.It can be installed by following the belo link.
+  
+  [Atom instalation](http://tipsonubuntu.com/2016/08/05/install-atom-text-editor-ubuntu-16-04/)
+  
 3. Unzip the zipped .txt tweets file.
 
 * $ unzip 16M.txt.zip
