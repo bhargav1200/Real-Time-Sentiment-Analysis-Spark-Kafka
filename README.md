@@ -54,4 +54,9 @@ In this project we perform Sentiment Analysis on live Twitter feed in Real Time.
 * $ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic twitterstream --from-beginning
 
 
+10. Plot of count of positive & negative words at each time step.
+
+![Tweet Count](https://github.com/kalyanghosh/Real-Time-Sentiment-Analysis-Spark-Kafka/blob/master/plot.JPG)
+
+
 
