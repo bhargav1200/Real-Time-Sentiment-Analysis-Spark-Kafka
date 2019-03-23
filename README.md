@@ -25,11 +25,11 @@ In this project we perform Sentiment Analysis on live Twitter feed in Real Time.
 
 * $ unzip 16M.txt.zip
 
-4. Start zookeeper service.
+4. Start zookeeper service by navigating to the directory where kafka-tar file is downloaded and then run the below command.
 
 * $ bin/zookeeper-server-start.sh config/zookeeper.properties.
 
-5. Start kafka service.
+5. Start kafka service by navigating to the directory where kafka-tar file is downloaded and then run the below command.
 
 * $ bin/kafka-server-start.sh config/server.properties.
 
