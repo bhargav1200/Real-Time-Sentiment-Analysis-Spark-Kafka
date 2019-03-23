@@ -40,3 +40,19 @@ In this project we perform Sentiment Analysis on live Twitter feed in Real Time.
 7. Check what topics you have.
 
 * $ bin/kafka-topics.sh --list --zookeeper localhost:2181
+
+8. Now install a python client to access Apache Kafka.
+
+* $ pip install kafka-python 
+
+8. Now stream the tweets and push them to kafka queue using the twitter_to_kafka.py.
+
+* $ python twitter_to_kafka.py
+
+9. Now check if the data is landing in Kafka.
+
+* $ bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic twitterstream --from-
+beginning
+
+
+
