@@ -51,8 +51,7 @@ In this project we perform Sentiment Analysis on live Twitter feed in Real Time.
 
 9. Now check if the data is landing in Kafka.
 
-* $ bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic twitterstream --from-
-beginning
+* $ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic twitterstream --from-beginning
 
 
 
